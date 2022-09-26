@@ -30,3 +30,4 @@ var msg = prompt ("Tem mais alguma tecnologia que você gostaria de aprender? Di
         alert(novaTecnologia + ' é realemnte uma tecnologia muito boa para se aprender!');
         msg = prompt("Tem mais alguma tecnologia que você gostaria de aprender? Digite 'Sim' em caso positivo.");        
     }
+    
