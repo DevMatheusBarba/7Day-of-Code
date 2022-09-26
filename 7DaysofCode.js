@@ -1,24 +1,32 @@
-function start() {
-    var name = document.getElementById("name").value
-    var age = document.getElementById("age").value;
-    var language = document.getElementById("language").value;
-    alert(
-        "OLá " +
-        name +
-        " você tem  " +
-        age +
-        " anos e já está aprendendo " +
-        language +
-        "!"
-    );
-    var gostou = prompt("VVocê gosta de estudar" + language + " Responda com o número 1 para SIM ou 2 para NÃO.")
-    if (gostou == "1") {
-        alert("Muito bom! Continue estudando e você terá muito sucesso.");
-    }
-    else if (gostou == "2"){
-        alert("Ahh que pena... Já tentou aprender outras linguagens?")
-    }
-        if (gostou != '2' || '1') {
-            alert('Opção selecionada invalida!')
-        }
+var carreira = prompt('Você deseja seguir em qual area: Front-End ou Back-End')
+var area = ''
+
+if (carreira == 'Front-End') {
+    area = prompt("Deseja aprender React ou aprender Vue");
 }
+else if (carreira == 'Back-End') {
+    area = prompt('Deseja aprender C# ou aprender Java');
+    
+}
+else {
+    alert('opção invalida');
+}
+
+var fullStackOuNao = prompt('Digite 1 para seguir se especializando na área escolhida ou 2 para seguir se desenvolvendo para se tornar Fullstack');
+    if (fullStackOuNao == '1') {
+        alert('Continue se especializando em '+ area + ' para dominar ' + carreira);
+    }
+    else if (fullStackOuNao == '2') {
+        alert('Chegou a hora de estudar outras linguagens além de ' + area + ' para se torna um FullStack');
+        
+    }
+    else{
+        alert('Você não insriu uma opção valida');
+    }
+
+var msg = prompt ("Tem mais alguma tecnologia que você gostaria de aprender? Digite 'Sim' em caso positivo.");
+    while (msg == 'Sim') {
+        let novaTecnologia = prompt('Qual tecnologia deseja aprender?');
+        alert(novaTecnologia + ' é realemnte uma tecnologia muito boa para se aprender!');
+        msg = prompt("Tem mais alguma tecnologia que você gostaria de aprender? Digite 'Sim' em caso positivo.");        
+    }
