@@ -1,0 +1,43 @@
+body{
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-preto-com-foco-de-luz_1017-27230.jpg?w=740")
+   }
+   
+   .container {
+     background-color: #fffafa;
+     color: #1c1c1c;
+     margin: 45px;
+     border-radius: 25px;
+     box-shadow: 6px 6px 6px #0e1d2f;
+     padding: 50px;
+   }
+   
+   .autoria{
+     display: inline-block;
+     font-size: xxx-large;
+     font-weight: bold;
+     vertical-align: top;
+     margin: 5px 0px 0px 50%
+   }
+   
+   .title{
+     margin-left: 30%;
+   }
+   
+   .input{ 
+     font-size: 22px;
+     font-weight: bold;
+     margin: 5px 0px 0px 35%; 
+     
+   }
+   
+   .name{
+     display: block;
+     widht: 45px;
+     border-radius: 5px;
+     margin: 5px 0px 10px 0px
+   }
+   
+   button{
+     border-radius: 5px;
+     margin: 0px 90%
+   }
